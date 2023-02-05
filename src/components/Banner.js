@@ -5,7 +5,6 @@ import profile from "../assets/img/profile.png"
 export const Banner =() =>{
     const [loopNum,setLoopNum]=useState(0);
     const [isDeleting,setIsDeleting]=useState(false);
-    const toRotate =["Full Stack Development","UI/UX Design"];
     const [text,setText] = useState('');
     const [delta,setDelta] = useState(300-Math.random()*100);
     const period = 2000;
@@ -13,6 +12,7 @@ export const Banner =() =>{
     
 
     useEffect(()=>{
+        const toRotate =["Full Stack Development","UI/UX Design"];
         let ticker = setInterval(()=>{
             const tick = () =>{
                 let i = loopNum % toRotate.length;
@@ -38,7 +38,7 @@ export const Banner =() =>{
         },delta)
 
         return ()=>{clearInterval(ticker)};
-    },[text,delta,isDeleting,loopNum,toRotate])
+    },[text,delta,isDeleting,loopNum])
 
     
 
@@ -52,7 +52,7 @@ export const Banner =() =>{
                         <p className="intro">I am a sophomore at Singapore Management University (SMU) studying Information Systems with a major in Digital Cloud Solutions. </p>
                     </Col>
                     <Col className="text-center d-none d-lg-block">
-                        <img className="w-75 rounded-circle" src={profile}></img>
+                        <img className="w-75 rounded-circle" src={profile} alt="profile"></img>
                     </Col>
                 </Row>
             </Container>

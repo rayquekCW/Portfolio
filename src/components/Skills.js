@@ -51,27 +51,27 @@ export const Skills =() =>{
                                 <TabPane eventKey="first">
                                     <Row>
                                         <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25" src={CSSLogo}></img>
+                                          <img className="w-25" src={CSSLogo} alt="css"></img>
                                           <h5 className="py-3">CSS</h5>
                                       </Col>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25" src={HTMLLogo}></img>
+                                          <img className="w-25" src={HTMLLogo} alt="HTML"></img>
                                           <h5 className="py-3">HTML</h5>
                                       </Col>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25" src={JavascriptLogo}></img>
+                                          <img className="w-25" src={JavascriptLogo} alt="javascript"></img>
                                           <h5 className="pb-3 pt-2">Javascript</h5>
                                       </Col>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25 py-3" src={PythonLogo}></img>
+                                          <img className="w-25 py-3" src={PythonLogo} alt="python"></img>
                                           <h5 className="py-3">Python</h5>
                                       </Col>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25 py-3" src={PHPLogo}></img>
+                                          <img className="w-25 py-3" src={PHPLogo} alt="php"></img>
                                           <h5 className="py-3">PHP</h5>
                                       </Col>
                                       <Col  className="my-auto" sm={6} md={4}>
-                                          <img className="w-25" src={JavaLogo}></img>
+                                          <img className="w-25" src={JavaLogo} alt="java"></img>
                                           <h5 className="py-3">Java</h5>
                                       </Col>
                                     </Row>
@@ -79,15 +79,15 @@ export const Skills =() =>{
                                 <TabPane eventKey="second">
                                   <Row>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25 py-1" src={VueLogo}></img>
+                                          <img className="w-25 py-1" src={VueLogo} alt="vue"></img>
                                           <h5 className="pb-3">Vue</h5>
                                       </Col>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25" src={ReactLogo}></img>
+                                          <img className="w-25" src={ReactLogo} alt="react"></img>
                                           <h5 className="py-3">React</h5>
                                       </Col>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25" src={BootstrapLogo}></img>
+                                          <img className="w-25" src={BootstrapLogo} alt="bootstrap"></img>
                                           <h5 className="py-3">Bootstrap</h5>
                                       </Col>
                                   </Row>
@@ -95,15 +95,15 @@ export const Skills =() =>{
                                 <TabPane eventKey="third">
                                   <Row>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25 py-4" src={SASSLogo}></img>
+                                          <img className="w-25 py-4" src={SASSLogo} alt="sass"></img>
                                           <h5 className="pb-3">SASS</h5>
                                       </Col>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25" src={FigmaLogo}></img>
+                                          <img className="w-25" src={FigmaLogo} alt="figma"></img>
                                           <h5 className="py-3">Figma</h5>
                                       </Col>
                                       <Col className="my-auto" sm={6} md={4}>
-                                          <img className="w-25" src={GithubLogo}></img>
+                                          <img className="w-25" src={GithubLogo} alt="github"></img>
                                           <h5 className="py-3">Github</h5>
                                       </Col>
                                   </Row>

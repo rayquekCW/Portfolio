@@ -23,12 +23,6 @@ import iRecycleFeature2 from "../assets/img/iRecycleFeatures2.png"
 export const Projects = ()=>{
 
     
-    const [index, setIndex] = useState(0);
-    
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    };
-    
       
     
     return(
@@ -78,7 +72,7 @@ export const Projects = ()=>{
                                                     </Carousel.Item>
                                                     <Carousel.Item interval={10000}>
                                                         
-                                                        <img className="w-75" src={BusinessPhoto}></img>
+                                                        <img className="w-75" src={BusinessPhoto} alt="businessPhoto"></img>
                                                         <h5 className="px-5 pb-5 mx-5 text-justify  ">SupportLocal is an eCommerce website that aggregates all local businesses, services, and products into an easy-to-use portal, allowing businesses to market their products and services to customers.</h5>
                                                         
                                                     </Carousel.Item>
@@ -90,42 +84,42 @@ export const Projects = ()=>{
                                                 <div  className="w-50 mx-auto techStack">Front End</div>
                                                 <Row>                                        
                                                     <Col className="my-auto " sm={6} md={4}>
-                                                        <img className=" techImage" src={HTMLLogo}></img>
+                                                        <img className=" techImage" src={HTMLLogo} alt="HTML"></img>
                                                         <h5 className="py-3">HTML</h5>
                                                     </Col>
                                                     <Col className="my-auto " sm={6} md={4}>
-                                                        <img className=" techImage" src={JavascriptLogo}></img>
+                                                        <img className=" techImage" src={JavascriptLogo} alt="javascript"></img>
                                                         <h5 className="py-3">Javascript</h5>
                                                     </Col>
                                                     <Col className="my-auto" sm={6} md={4}>
-                                                        <img className=" techImage" src={CSSLogo}></img>
+                                                        <img className=" techImage" src={CSSLogo} alt="css"></img>
                                                         <h5 className="py-3">CSS</h5>
                                                     </Col>
                                                     <Col className="my-auto " sm={6} md={4}>
-                                                        <img className=" techImage" src={SASSLogo}></img>
+                                                        <img className=" techImage" src={SASSLogo} alt="sass"></img>
                                                         <h5 className="py-3">SASS</h5>
                                                     </Col>
                                                     <Col className="my-auto " sm={6} md={4}>
-                                                        <img className=" techImage" src={VueLogo}></img>
+                                                        <img className=" techImage" src={VueLogo} alt="vue"></img>
                                                         <h5 className="pb-3">Vue</h5>
                                                     </Col>
                                                     <Col className="my-auto" sm={6} md={4}>
-                                                        <img className="techImage" src={BootstrapLogo}></img>
+                                                        <img className="techImage" src={BootstrapLogo} alt="bootstrap"></img>
                                                         <h5 className="py-3">Bootstrap</h5>
                                                     </Col>
                                                 </Row>
                                                 <div className="w-50 mx-auto techStack">Back End</div>
                                                 <Row>
                                                     <Col className="my-auto " sm={6} md={4}>
-                                                        <img className="pt-4 techImages" src={MongoDBLogo}></img>
+                                                        <img className="pt-4 techImages" src={MongoDBLogo} alt="mongdb"></img>
                                                         <h5 className="pb-3 pt-4">MongoDB</h5>
                                                     </Col>
                                                     <Col className="my-auto " sm={6} md={4}>
-                                                        <img className="pt-4 techImages" src={NodeJSLogo}></img>
+                                                        <img className="pt-4 techImages" src={NodeJSLogo} alt="nodejs"></img>
                                                         <h5 className="pb-3 pt-4">NodeJS</h5>
                                                     </Col>
                                                     <Col className="my-auto " sm={6} md={4}>
-                                                        <img className=" techImage" src={ExpressLogo}></img>
+                                                        <img className=" techImage" src={ExpressLogo} alt="express"></img>
                                                         <h5 className="pb-0">Express</h5>
                                                     </Col>
                                                 </Row>
@@ -190,7 +184,7 @@ export const Projects = ()=>{
                                                         
                                                     </Carousel.Item>
                                                     <Carousel.Item interval={3000}>                                                        
-                                                        <img className="w-75 pb-3" src={iRecycleFeature2}></img>
+                                                        <img className="w-75 pb-3" src={iRecycleFeature2} alt="secondslide"></img>
                                                     </Carousel.Item>
                                                     </Carousel>
                                             </TabPane>
