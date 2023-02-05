@@ -10,34 +10,37 @@ export const Banner =() =>{
     const [delta,setDelta] = useState(300-Math.random()*100);
     const period = 2000;
 
+    
+
     useEffect(()=>{
         let ticker = setInterval(()=>{
+            const tick = () =>{
+                let i = loopNum % toRotate.length;
+                let fullText = toRotate[i];
+                let updatedText = isDeleting ? fullText.substring(0,text.length-1):fullText.substring(0,text.length+1);
+        
+                setText(updatedText);
+        
+                if(isDeleting){
+                    setDelta(prevDelta => prevDelta/2)
+                }
+        
+                if(!isDeleting && updatedText === fullText){
+                    setIsDeleting(true);
+                    setDelta(period);
+                }else if(isDeleting && updatedText === ''){
+                    setIsDeleting(false);
+                    setLoopNum(loopNum+1);
+                    setDelta(500);
+                }
+            }
             tick();
         },delta)
 
         return ()=>{clearInterval(ticker)};
-    },[text])
+    },[text,delta,isDeleting,loopNum,toRotate])
 
-    const tick = () =>{
-        let i = loopNum % toRotate.length;
-        let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0,text.length-1):fullText.substring(0,text.length+1);
-
-        setText(updatedText);
-
-        if(isDeleting){
-            setDelta(prevDelta => prevDelta/2)
-        }
-
-        if(!isDeleting && updatedText === fullText){
-            setIsDeleting(true);
-            setDelta(period);
-        }else if(isDeleting && updatedText == ''){
-            setIsDeleting(false);
-            setLoopNum(loopNum+1);
-            setDelta(500);
-        }
-    }
+    
 
     return(
         <section className="banner" id="home">
