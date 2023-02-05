@@ -1,5 +1,4 @@
 import { Container,Row,Col,Nav, TabContainer, TabContent, TabPane } from "react-bootstrap"
-import React, { useState } from 'react';
 import laptopImage  from "../assets/img/SPLocalApple.png";
 import color from "../assets/img/color-pallete-2.png"
 import Carousel from 'react-bootstrap/Carousel';
