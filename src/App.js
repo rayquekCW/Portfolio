@@ -1,4 +1,4 @@
-import { Container,Row,Col,Nav, TabContainer, TabContent, TabPane } from "react-bootstrap"
+import { Container,Row,Col} from "react-bootstrap"
 import './App.css';
 import {NavBar} from './components/NavBar';
 import {Banner} from './components/Banner';
