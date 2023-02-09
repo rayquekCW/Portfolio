@@ -11,6 +11,7 @@ import ReactLogo  from "../assets/img/react.svg";
 import BootstrapLogo  from "../assets/img/bootstrap.svg";
 import FigmaLogo  from "../assets/img/figma.svg";
 import GithubLogo  from "../assets/img/github.svg";
+import SQLLogo  from "../assets/img/sql.svg";
 
 export const Skills =() =>{
 
@@ -73,6 +74,10 @@ export const Skills =() =>{
                                       <Col  className="my-auto" sm={6} md={4}>
                                           <img className="w-25" src={JavaLogo} alt="java"></img>
                                           <h5 className="py-3">Java</h5>
+                                      </Col>
+                                      <Col  className="my-auto mx-auto" sm={6} md={4}>
+                                          <img className="w-25 py-3" src={SQLLogo} alt="sql"></img>
+                                          <h5 className="py-3">SQL</h5>
                                       </Col>
                                     </Row>
                                 </TabPane>
