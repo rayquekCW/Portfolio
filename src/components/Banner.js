@@ -12,7 +12,7 @@ export const Banner =() =>{
     
 
     useEffect(()=>{
-        const toRotate =["Full Stack Development","UI/UX Design"];
+        const toRotate =["Full Stack Developer","UI/UX Designer"];
         let ticker = setInterval(()=>{
             const tick = () =>{
                 let i = loopNum % toRotate.length;

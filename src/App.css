@@ -22,6 +22,10 @@
   box-sizing: border-box;
 }
 
+i{
+  font-size: 500%;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
@@ -320,7 +324,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill .nav.nav-pills .nav-item{
-  width: 33%;
+  width: 25%;
 }
 
 .skill .nav.nav-pills .nav-link {
@@ -363,7 +367,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .nav-link#skills-tabs-tab-second {
   border:1px solid rgba(5, 5, 5, 0.5);
 }
-.nav-link#skills-tabs-tab-third {
+.nav-link#skills-tabs-tab-third{
+  border:1px solid rgba(5, 5, 5, 0.5);
+}
+.nav-link#skills-tabs-tab-fourth {
   border:1px solid rgba(5, 5, 5, 0.5);
 }
 
