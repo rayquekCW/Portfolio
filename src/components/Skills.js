@@ -53,120 +53,120 @@ export const Skills = () => {
                 <TabContent>
                   <TabPane eventKey="first">
                     <Row>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-css3-plain colored"></i>
-                        <h5 className="my-2">CSS</h5>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-css3-plain colored"></i>
+                        <h5 classNameName="my-2">CSS</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-html5-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-html5-plain colored"></i>
                         <h5 className="my-2">HTML</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-javascript-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-javascript-plain colored"></i>
                         <h5 className="my-2">Javascript</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-python-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-python-plain colored"></i>
                         <h5 className="my-2">Python</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-php-plain"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-php-plain"></i>
                         <h5 className="my-2">PHP</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-java-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-java-plain colored"></i>
                         <h5 className="my-2">Java</h5>
                       </Col>
-                      <Col className="my-auto mx-auto" sm={6} md={4}>
-                        <i class="devicon-azuresqldatabase-plain"></i>
+                      <Col className="logo mx-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-azuresqldatabase-plain"></i>
                         <h5 className="my-2">SQL</h5>
                       </Col>
-                      <Col className="my-auto mx-auto" sm={6} md={4}>
-                        <i class="devicon-spring-original colored"></i>
+                      <Col className="logo mx-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-spring-original colored"></i>
                         <h5 className="my-2">Spring Boot</h5>
                       </Col>
-                      <Col className="my-auto mx-auto" sm={6} md={4}>
-                        <i class="devicon-kotlin-plain"></i>
+                      <Col className="logo mx-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-kotlin-plain"></i>
                         <h5 className="my-2">Kotlin</h5>
                       </Col>
                     </Row>
                   </TabPane>
                   <TabPane eventKey="second">
                     <Row>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-angularjs-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-angularjs-plain colored"></i>
                         <h5 className="my-2">Angular</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-vuejs-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-vuejs-plain colored"></i>
                         <h5 className="my-2">Vue</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-react-original colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-react-original colored"></i>
                         <h5 className="my-2">React</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-bootstrap-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-bootstrap-plain colored"></i>
                         <h5 className="my-2">Bootstrap</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-express-original colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-express-original colored"></i>
                         <h5 className="my-2">Express JS</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-nodejs-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-nodejs-plain colored"></i>
                         <h5 className="my-2">Node JS</h5>
                       </Col>
                     </Row>
                   </TabPane>
                   <TabPane eventKey="third">
                     <Row>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-firebase-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-firebase-plain colored"></i>
                         <h5 className="my-2">Firebase</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-mongodb-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-mongodb-plain colored"></i>
                         <h5 className="my-2">MongoDB</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-mysql-original colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-mysql-original colored"></i>
                         <h5 className="my-2">MySQL</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-sqlite-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-sqlite-plain colored"></i>
                         <h5 className="my-2">SQLite</h5>
                       </Col>
                     </Row>
                   </TabPane>
                   <TabPane eventKey="fourth">
                     <Row>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-sass-original colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-sass-original colored"></i>
                         <h5 className="my-2">SASS</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-figma-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-figma-plain colored"></i>
                         <h5 className="my-2">Figma</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-github-original colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-github-original colored"></i>
                         <h5 className="my-2">Github</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-git-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-git-plain colored"></i>
                         <h5 className="my-2">Git</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-amazonwebservices-plain-wordmark colored"></i>
                         <h5 className="my-2">AWS</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-docker-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-docker-plain colored"></i>
                         <h5 className="my-2">Docker</h5>
                       </Col>
-                      <Col className="my-auto" sm={6} md={4}>
-                        <i class="devicon-jira-plain colored"></i>
+                      <Col className="logo my-auto" xs={6} sm={6} md={4}>
+                        <i className="devicon-jira-plain colored"></i>
                         <h5 className="my-2">Jira</h5>
                       </Col>
                     </Row>
