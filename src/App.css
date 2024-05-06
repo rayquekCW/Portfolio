@@ -84,10 +84,6 @@ p.danger {
 	color: red;
 }
 
-.App{
-  height:2428px;
-}
-
 
 .App .pac{
   text-align: center;
@@ -97,6 +93,7 @@ p.danger {
   width: 100%;
   height: 100vh;
 }
+
 
 /************ Navbar Css ************/
 nav.navbar {
